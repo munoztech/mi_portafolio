@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+    <title>Mi Portafolio</title>
+</head>
+
+<body >
+   <!--Encabezado del portafolio-->
+    <header>
+      <h1>Javiera Muñoz Velásquez</h1>
+      <p>Desarrollador Frontend</p>
+    </header>
+
+ 
+   <!--Sección sobre mi-->
+    <section id="SobreMí">
+        <h2>Sobre Mí</h2>
+        <p>Me caracterizo por mi proactividad y mi constante búsqueda de nuevos
+           desafíos que me permitan aportar al éxito de los proyectos de forma colaborativa. 
+           Estoy comprometida con el desarrollo de soluciones innovadoras y eficientes.
+           Con habilidades sólidas en HTML, CSS, y JavaScript. ¡Estoy emocionada por
+           la oportunidad de compartir mi viaje de desarrollo frontend contigo!</p>
+  
+    </section>
+
+       <!--Sección donde se muestran los proyectos realizados. Estos son solo ejemplos ficticios. Como alumno es ideal tenerlos en GitHub y poder compartirlos con los reclutadores-->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/proyecto1.jfif" class="card-img-top" alt="proyecto1">
+                <a href="https://www.figma.com/design/rbg2yhETRf0uEMZCRKq82t/Tierra-de-Estrellas" class="btn btn-secondary" role="button">Enlace al proyecto en Figma</a>
+                <div class="card-body">
+                  <h5 class="card-title">Tierra de estrellas</h5>
+                  <p class="card-text"><b>2023 - Pagina interactiva:</b>
+                    
+Desarrolle una pagina interactiva, a través de
+metodologias agiles, para concientizar sobre la
+contaminación lumínica orientada a la importancia de la
+astronomía en Chile. Colaborando en un equipo de 5,
+creando la pagina de cero a mvp, usando metodologias
+agiles como scrum..      
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/proyecto2.jpeg"card-img-top" alt="tierradeestrellas">
+                <div class="card-body">
+                  <h5 class="card-title">Desarrollador y Product Owner</h5>
+                  <p class="card-text"><b>Como Product owner:</b> 
+                    lideré el proceso de búsqueda y selección, organicé reuniones y conversaciones con posibles clientes para comprender sus necesidades y desafíos para obtener un gran proyecto.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/img/Proyecto3.jpg" class="card-img-top" alt="presentacion">
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto Innovador</h5>
+                  <p class="card-text"><b>Proyecto presenado en la bolsa de comercio</b> 
+                    Feria Laboral donde presente el proyecto a mas de 30 empresas </p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col"></div>
+            <div class="text-center">
+              <button class="html">HTML5</button>
+              <button class="css">CSS</button>
+              <button class="js">JS</button>
+              <button class="bootstrap">BOOTSTRAP</button>
+              <button class="java">JAVA</button>
+              <button class="react">REACT</button>
+              <button class="sql">SQL</button>
+              <img style="width: 15%;" src="assets/img/logotipo-de-github.png" alt="GitHub">
+            </div>
+          </div>
+            </div>
+          </div>
+    </section>
+
+       <!--Sección de contacto con un formulario-->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="correo" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Detalles</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+          </div>
+         
+          <button type="submit" onclick="validarCorreo()" class="enviar">Enviar</button>
+        
+        </form>
+        </form>
+    </section>
+
+       <!--Pie de página del portafolio-->
+    <footer class="text-center">
+        <p>&copy; 2024 Mi Portafolio</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
